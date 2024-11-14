@@ -1,1 +1,0 @@
-https://devinterview.io/questions/software-architecture-and-system-design/kubernetes-interview-questions/
