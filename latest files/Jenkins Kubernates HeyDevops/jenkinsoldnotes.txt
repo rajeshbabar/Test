@@ -1,0 +1,33 @@
+sudo apt remove --purge openjdk-\*
+sudo apt install openjdk-11-jdk
+sudo apt install maven -y
+
+cat /var/lib/jenkins/secrets/initialAdminPassword
+
+Step 10 – Add pipeline script as SCM
+
+Sonar Gerrit
+SonarQube Scanner
+SonarQube Generic Coverage
+Sonar Quality Gates
+Quality Gates
+Artifactory
+Jfrog
+
+Step 10 – Add pipeline script as SCM
+https://github.com/praveen1994dec/Java_app_3.0.git
+https://github.com/praveen1994dec/jenkins_shared_lib
+
+Step 18 – Add the Jenkins Shared library
+Go to Manage Jenkins -> Configure system ->
+Global pipeline library -> Add below data
+Name - my-shared-library
+Default version – main
+Git -
+https://github.com/praveen1994dec/jenkins_shared_lib.git
+
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+
+wget http://mirrors.estointernet.in/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+
+

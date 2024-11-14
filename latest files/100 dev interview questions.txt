@@ -1,0 +1,229 @@
+C# Fundamentals
+
+1. What is C# and what are its key features?
+
+2. Explain the basic structure of a C# program.
+
+3. What are the different types of data types available in C#?
+
+4. What is the difference between value types and reference types?
+
+5. What are nullable types in C#?
+
+6. Can you describe what namespaces are and how they are used in C#?
+
+7. Explain the concept of boxing and unboxing in C#.
+
+8. What is Type Casting and what are its types in C#?
+
+9. What are operators in C# and can you provide examples?
+
+10. What is the difference between == operator and Equals() method?
+
+11. What is the purpose of the var keyword in C#?
+
+12. What are the differences between const and readonly keywords?
+
+13. How does checked and unchecked context affect arithmetic operations?
+
+14. What are the different ways to handle errors in C#?
+
+15. Explain the role of the garbage collector in .NET.
+
+Object-Oriented Programming in C#
+
+16. Define Object-Oriented Programming and its principles.
+
+17. What is a class and how is it different from a struct?
+
+18. Explain the concept of inheritance and its use in C#.
+
+19. What is polymorphism, and can you give a C#_ example?
+
+20. What is encapsulation and how is it implemented in C#?
+
+21. What are abstract classes and interfaces, and when do you use each?
+
+22. Can you explain what a virtual method is in C#?
+
+23. What is method overloading and method overriding?
+
+24. Can you describe the base keyword?
+
+25. What is an access modifier and what are the different types of access modifiers?
+
+C# Advanced Concepts
+
+26. What are indexers in C#?
+
+27. Explain the concept of delegates in C#.
+
+28. What are events and how are they different from delegates?
+
+29. What are Lambda expressions and where would you use them?
+
+30. Can you explain what extension methods are and how to use them?
+
+31. What are generics and how do they provide type safety?
+
+32. Define LINQ and mention its advantages.
+
+33. What is the difference between IEnumerable and IQueryable?
+
+34. What are async and await keywords and how do they work?
+
+35. What is the purpose of the using statement?
+
+C# Collections and Data Structures
+
+36. What are collections in C#?
+
+37. What is the difference between arrays and collections?
+
+38. Explain the different types of collections in .NET.
+
+39. What is the difference between List and LinkedList?
+
+40. Can you discuss the IDictionary interface and its implementation?
+
+41. What are HashTable and Dictionary and how do they differ?
+
+42. How does a C# HashSet work and what are its benefits?
+
+43. What are Enumerable and Queryable collections?
+
+44. When would you use a Queue vs a Stack?
+
+45. How do you sort elements in a collection?
+
+C# Exception Handling
+
+46. What is exception handling and why is it necessary?
+
+47. What are the common exception types in C#?
+
+48. How do you create custom exceptions in C#?
+
+49. What is the use of the finally block?
+
+50. Can you explain exception filters introduced in C# 6?
+
+C# Asynchronous Programming
+
+51. What is the Task Parallel Library (TPL)?
+
+52. Explain the difference between synchronous and asynchronous operations.
+
+53. How do you cancel an asynchronous operation?
+
+54. What is the difference between Task and Thread?
+
+55. Discuss the use of the Parallel class in C#.
+
+C# File I/O and Serialization
+
+56. How do you read from and write to a text file in C#?
+
+57. What are the file handling classes in C#?
+
+58. Explain serialization and deserialization in the context of C#.
+
+59. What is the difference between XML Serialization and JSON Serialization?
+
+60. How do you use streams in C#?
+
+C# Attributes and Reflection
+
+61. What are attributes in C#?
+
+62. How do you define a custom attribute?
+
+63. What is reflection and why is it useful?
+
+64. Explain how to use reflection to inspect an assembly's metadata.
+
+65. How do you use reflection to create an instance of a class at runtime?
+
+C# Memory Management
+
+66. Describe the stack and heap in .NET's memory management.
+
+67. What are the finalizers in C#?
+
+68. How do you force a garbage collection?
+
+69. Explain the IDisposable interface and the Dispose pattern.
+
+70. What is a memory leak in .NET and how can it be prevented?
+
+C# Debugging and Diagnostic
+
+71. How do you debug a C# application?
+
+72. What are breakpoints and how are they used?
+
+73. Explain the use of the Debug and Trace classes.
+
+74. Discuss the techniques to analyze a memory dump.
+
+75. How can you profile a C# application to identify performance bottlenecks?
+
+C# Concurrency and Parallelism
+
+76. What is a deadlock and how can it be prevented?
+
+77. Discuss the reader-writer lock pattern in C#.
+
+78. Explain how the lock keyword ensures thread safety.
+
+79. What are Mutexes, Semaphores, and Monitors?
+
+80. How do you achieve parallelism using PLINQ?
+
+C# Unit Testing and Test Driven Development (TDD)
+
+81. What is unit testing and what frameworks do you use for it in C#?
+
+82. Explain the concept of Test-Driven Development (TDD).
+
+83. How do you mock objects in C# unit tests?
+
+84. What are the common attributes used in a test method?
+
+85. How do you test asynchronous code in C#?
+
+C# Best Practices and Design Patterns
+
+86. Why are SOLID principles important in C#?
+
+87. Can you describe some common design patterns and their applications in C#?
+
+88. How do you ensure your C# code is maintainable and readable?
+
+89. What strategies do you use for error handling and exception management?
+
+90. Discuss the concept of dependency injection and how it's used in C#.
+
+91. What are the new features introduced in the latest version of C#?
+
+92. How has pattern matching evolved in recent C# versions?
+
+93. Explain how C#8 nullable reference types work.
+
+94. What is the switch expression and how does it differ from the switch statement?
+
+95. How do you take advantage of tuples in C#?
+
+C# Interoperability
+
+96. How can you call unmanaged code using C#?
+
+97. What is the role of P/Invoke in C#?
+
+98. How do you interface with COM objects in C#?
+
+99. Discuss C# and .NET Core inter-platform capabilities.
+
+C# and .NET Framework/Core Future
+
+100. How is C#_ evolving with .NET 5 and beyond?

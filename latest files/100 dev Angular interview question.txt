@@ -1,0 +1,245 @@
+Angular Fundamentals
+
+1. What is Angular and what are its key features?
+
+2. Explain data-binding in Angular. What are the different types?
+
+3. Describe the Angular application architecture.
+
+4. What is a component in Angular and how is it used?
+
+5. What are directives in Angular and can you name a few commonly used ones?
+
+6. How do you create a service in Angular and why would you use one?
+
+7. Can you explain what dependency injection is in Angular?
+
+8. What is a module in Angular and what is its purpose?
+
+9. How do you handle events in Angular?
+
+10. What is two-way binding and how do you implement it in Angular?
+
+11. Explain the difference between an Angular component and a directive.
+
+12. What are Pipes in Angular and where would you use them?
+
+13. How do you handle form submissions in Angular?
+
+14. What is Angular CLI and what can it be used for?
+
+15. Describe how to make HTTP requests in Angular using HttpClient.
+
+Angular Components and Data Binding
+
+16. How would you pass data from a parent to a child component?
+
+17. Can you describe how to emit events from a child component to a parent component?
+
+18. What are the lifecycle hooks available for Angular components and what do they represent?
+
+19. Explain the concept of ViewEncapsulation in Angular.
+
+20. How do you apply conditional styling to Angular components?
+
+21. What is the difference between structural and attribute directives?
+
+22. Describe how you would create a custom structural directive.
+
+Angular Services and Dependency Injection
+
+23. How can you make a service singleton in Angular?
+
+24. Explain how you can use Observables in services for data sharing.
+
+25. What are the different ways to provide a service in Angular?
+
+26. Can you explain the concept of providedin in Angular services?
+
+27. How do you use HttpClient to process JSON in Angular?
+
+28. How would you handle REST API calls and error responses using services?
+
+Angular Routing
+
+29. How do you configure routing in Angular applications?
+
+30. Can you create a route that dynamically loads a module only when accessed?
+
+31. What is a Router Outlet and how is it used in Angular?
+
+32. How do you apply route guards in Angular?
+
+33. Explain the purpose of Activated Route in Angular routing.
+
+34. What are route parameters and how do you access them in Angular?
+
+35. How would you preload data before navigating to a route?
+
+36. Can you describe how to implement lazy loading in Angular?
+
+Angular Forms
+
+37. Explain the difference between Template-driven and Reactive forms in Angular.
+
+38. How do you validate user input in Angular forms?
+
+39. How can you dynamically add or remove form controls in Reactive Forms?
+
+40. What are form groups and how do they work in Angular?
+
+41. How do you create custom validators in Angular forms?
+
+42. Explain how to use formArrayName to handle array type form fields.
+
+43. How do you submit form data to a backend service?
+
+Angular Advanced Concepts
+
+44. What is change detection, and how does Angular implement it?
+
+45. How do you optimize the performance of Angular applications?
+
+46. Can you discuss the concept of Zones in Angular?
+
+47. How do you implement server-side rendering (SSR) in Angular with Angular Universal?
+
+Can you explain the Ahead-of-Time (AOT) compilation versus Just-in-Time (JIT) compilation in
+
+48. Angular?
+
+49. Describe the decorators available in Angular.
+
+50. How would you use Angular Animations to animate transitions in your application?
+
+Angular Directives
+
+51. How are custom directives created in Angular?
+
+52. Can you explain the use of ingClass and ngStyle directives?
+
+53. How would you interact with DOM directly using directives?
+
+54. When should you use Renderer2 and what are its benefits?
+
+Angular Pipes
+
+55. How do you create a custom pipe in Angular?
+
+56. Describe the pure and impure pipes.
+
+57. What is the async pipe and how is it used?
+
+Angular State Management
+
+58. What is NgRx and how does it help in state management?
+
+59. Explain the concepts of Actions, Reducers, and Effects in NgRx.
+
+60. How would you persist application state across page refreshes?
+
+61. Can you discuss the concept of immutability in state management?
+
+Testing in Angular
+
+62. How do you test Angular components?
+
+63. Explain what TestBed is and its role in Angular testing.
+
+64. How do you mock an Angular service for testing purposes?
+
+65. Can you perform end-to-end testing in Angular? Describe the process.
+
+66. What are the differences between Jasmine and Karma in the context of Angular testing?
+
+Angular Performance and Optimization
+
+67. What strategies would you use to reduce the load time of an Angular application?
+
+68. Explain Lazy Loading and how it improves application performance.
+
+69. How would you implement code splitting in Angular to improve performance?
+
+70. Discuss the use of track By option in "ngFor for performance improvement.
+
+Angular Internationalization (118n) and Localization
+
+71. How can you add support for multiple languages in an Angular application?
+
+72. Describe the process of implementing angular localization.
+
+Angular Security
+
+73. What are some common security best practices for Angular applications?
+
+74. How do you prevent cross-site scripting (XSS) in Angular applications?
+
+75. Can you perform authentication and authorization in Angular applications?
+
+Angular and TypeScript
+
+76. How does TypeScript differ from JavaScript and why is it preferred in Angular?
+
+77. What are the advantages of using TypeScript interfaces in Angular applications?
+
+78. Can you explain the use of decorators in TypeScript, providing an example in Angular?
+
+Angular and RxJS
+
+79. How does RxJS complement Angular applications?
+
+80. Explain the purpose of Subjects in RxJS and how they're used in Angular.
+
+81. What are some common RxJS operators and how do you use them in Angular?
+
+Angular Best Practices
+
+82. What are some best practices for structuring a large Angular application?
+
+83. How do you manage global state in Angular applications?
+
+84. What are some best practices for component communication in large Angular applications?
+
+Angular and Mobile Development
+
+85. Can you use Angular to create mobile applications? If so, how?
+
+86. What is lonic and how does it integrate with Angular?
+
+Angular CLI
+
+87. How do you add a new component, service, or module using Angular CLI?
+
+88. What are the benefits of using Angular CLI to scaffold projects?
+
+89. How do you update an Angular application to the latest version using Angular CLI?
+
+Angular Miscellaneous
+
+90. How can you integrate third-party libraries into an Angular application?
+
+91. What are environment variables in Angular and how would you use them?
+
+92. Can you use web workers in Angular applications and how?
+
+93. How would you handle configuration settings in Angular?
+
+94. Describe the process of data sharing between unrelated components.
+
+Angular Developer Tools and Workflow
+
+95. What are some popular IDEs or editors for Angular development and what features do they offer for Angular developers?
+
+96. How do you debug Angular applications?
+
+97. Explain how to use Angular Augury for performance profiling.
+
+Angular Interoperability
+
+98. How do you integrate Angular with other frameworks or libraries, such as React or Vue.js?
+
+99. Can you embed an Angular application inside another application?
+
+Angular Versioning and Upgrades
+
+100. Discuss the challenges you may face when upgrading an Angular application to a newer version.

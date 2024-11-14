@@ -1,0 +1,21 @@
+Dotnet Interview (important) - https://github.com/StefanTheCode/dotnet_interview_questions
+
+MVC dotnet - https://github.com/kansiris/ASP.NET-MVC-interview-questions
+C# - https://github.com/kansiris/C-Sharp-c-interview-question
+
+angular - https://github.com/sudheerj/angular-interview-questions
+
+AWS :-
+https://github.com/vicjor/aws-saa-c03
+https://github.com/sv222/AWS-Solutions-Architect-Associate-Exam-2024
+https://github.com/keenanromain/AWS-SAA-C02-Study-Guide
+
+
+https://devinterview.io/questions/software-architecture-and-system-design/kubernetes-interview-questions/
+
+
+store proceger
+function in sql
+views in sql
+
+kubernates - check linked in chat

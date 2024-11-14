@@ -1,0 +1,95 @@
+Kubectl Create deploy my-nginx-image=nginx-dry.YAML > my nginx.YAML
+kubectl get namespace -> different application namespace
+kubectl create ns mydev -> create namespace
+kubectl create -f pod.YAML
+kubectl describe svc nginx -> description
+kubectl exec -it pod1 bash ->go inside pod
+minikube ->subset of k8
+architecture of k8
+important concept of k8
+
+Here's a basic example of a Dockerfile and a Kubernetes (K8s) deployment file:
+
+### **Dockerfile**
+
+A simple Dockerfile to containerize a Node.js application.
+
+```Dockerfile
+# Use an official Node.js runtime as the base image
+FROM node:14
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy package.json and install dependencies
+COPY package*.json ./
+RUN npm install
+
+# Copy the rest of the application files
+COPY . .
+
+# Expose the port the app runs on
+EXPOSE 3000
+
+# Run the application
+CMD ["npm", "start"]
+```
+
+### **Explanation**:
+1. `FROM node:14`: Sets the base image as Node.js version 14.
+2. `WORKDIR /app`: Sets the working directory inside the container.
+3. `COPY package*.json ./` and `RUN npm install`: Copies `package.json` and installs dependencies.
+4. `COPY . .`: Copies the app code to the working directory.
+5. `EXPOSE 3000`: Exposes port 3000 to allow external access.
+6. `CMD ["npm", "start"]`: Runs the application.
+
+---
+
+### **Kubernetes Deployment File (k8s-deployment.yaml)**
+
+A basic Kubernetes deployment for a Dockerized Node.js application.
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: node-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: node-app
+  template:
+    metadata:
+      labels:
+        app: node-app
+    spec:
+      containers:
+      - name: node-app
+        image: your-docker-image:latest
+        ports:
+        - containerPort: 3000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: node-app-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: node-app
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 3000
+```
+
+### **Explanation**:
+1. **Deployment**:
+   - `replicas: 2`: Runs two replicas of the container.
+   - `containers`: Defines the container, image, and port to use.
+2. **Service**:
+   - `type: LoadBalancer`: Exposes the service externally.
+   - `ports`: Maps port 80 of the service to port 3000 of the container.
+
+This setup allows you to run a simple application in a container, with Kubernetes managing multiple replicas and exposing it through a LoadBalancer.

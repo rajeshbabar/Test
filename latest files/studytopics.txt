@@ -1,0 +1,19 @@
+Resume:-
+vault
+yaml
+AdobeExpriencePlatform
+2 design work
+BDD
+2 more point about angular
+
+learning
+Go through PR everyday one hour
+learn about powershell script
+learn nbomborded test
+learn kafa
+create video playlist about interview watch daily 1 hours
+Messaging: MQ, Kafka, Redis
+Kubernetes
+learn about angular everyday
+check on linkedin daily job details and update for resume
+single ton?
